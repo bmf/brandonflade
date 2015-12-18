@@ -1,3 +1,3 @@
 # www.brandonflade.com
 
-Just a page with some stuff on it.
+Adding a personal page to my Github repos.
