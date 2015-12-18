@@ -1,51 +1,49 @@
 a {
-			text-decoration: none;
-			width: 100%;
-			display:inline-block;
-			color: rgba(78, 74, 74, 1);
-			padding: 0 0.5em;
-		}
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    color: rgba(78, 74, 74, 1);
+    padding: 0 0.5em;
+}
 
-		a:hover {
-			background-color: #000;
-			color: #FFF;
-		}
+a:hover {
+    background-color: #000;
+    color: #FFF;
+}
 
+h1#myname {
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
+#logobox {
+    width: 610px;
+    margin: 0 auto;
+}
 
-		h1#myname {
-			text-align: center;
-			font-size: 5em;
-			margin-bottom: 15px;
-			font-family: Helvetica, Arial, sans-serif;
-		}
+dl {
+    margin: 0 auto;
+    padding: 0.5em;
+    width: 410px;
+}
 
-		#logobox {
-			width: 610px;
-			margin: 0 auto;
-		}
+dt {
+    font-family: Helvetica, Arial, sans-serif;
+    float: left;
+    clear: left;
+    width: 125px;
+    text-align: right;
+    font-weight: bold;
+}
 
-		dl {
-			margin: 0 auto;
-			padding: 0.5em;
-			width:410px;
-		}
+dt:after {
+    content: ":";
+}
 
-		dt {
-			font-family: Helvetica, Arial, sans-serif;
-			float: left;
-	    clear: left;
-	    width: 125px;
-	    text-align: right;
-	    font-weight: bold;
-		}
-
-		dt:after{
-			content: ":";
-		}
-
-		dd {
-			font-family: Garamond,serif;
-			margin: 0 0 0 125px;
-			padding: 0 0 0.5em 5px;
-		}
+dd {
+    font-family: Garamond, serif;
+    margin: 0 0 0 125px;
+    padding: 0 0 0.5em 5px;
+}
